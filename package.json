@@ -1,0 +1,33 @@
+{
+  "name": "dust-sweeper",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.4.13",
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-react-ui": "^0.9.35",
+    "@solana/wallet-adapter-wallets": "^0.19.32",
+    "@solana/web3.js": "^1.98.0",
+    "bs58": "^6.0.0",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  }
+}
